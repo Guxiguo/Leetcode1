@@ -1,5 +1,8 @@
 package RemoveNthFromEnd;
 
+/**
+ * 删除链表中的倒数第n个元素
+ */
 public class Solution {
     public static ListNode removeNthFromEnd(ListNode head, int n) {
         ListNode dummy = new ListNode(0,head);
