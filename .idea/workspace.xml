@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22cdc4a9-2dbf-4e66-8e7c-5a4d28d41902" name="Changes" comment="new project">
-      <change afterPath="$PROJECT_DIR$/src/rotate/Solution.java" afterDir="false" />
+    <list default="true" id="22cdc4a9-2dbf-4e66-8e7c-5a4d28d41902" name="Changes" comment="add generateTrees">
+      <change afterPath="$PROJECT_DIR$/src/groupAnagrams/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/myPow/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -46,7 +47,12 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="generateTrees" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.myPow.Solution">
     <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="rotate.Solution" />
       <module name="LeetCode1" />
@@ -60,8 +66,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="groupAnagrams.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="groupAnagrams.Solution" />
+      <module name="LeetCode1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="groupAnagrams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="myPow.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="myPow.Solution" />
+      <module name="LeetCode1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="myPow.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.myPow.Solution" />
+        <item itemvalue="Application.groupAnagrams.Solution" />
         <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
@@ -76,6 +110,13 @@
       <updated>1695022394842</updated>
       <workItem from="1695022397381" duration="478000" />
       <workItem from="1695035071569" duration="1780000" />
+      <workItem from="1695084601341" duration="51000" />
+      <workItem from="1695110326699" duration="189000" />
+      <workItem from="1695110766141" duration="1084000" />
+      <workItem from="1695189664693" duration="997000" />
+      <workItem from="1695215208642" duration="4729000" />
+      <workItem from="1695257684310" duration="104000" />
+      <workItem from="1695370290057" duration="28000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1695022472379</created>
@@ -84,7 +125,28 @@
       <option name="project" value="LOCAL" />
       <updated>1695022472379</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="add rotate">
+      <created>1695084642504</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695084642504</updated>
+    </task>
+    <task id="LOCAL-00003" summary="add inorderTraversal">
+      <created>1695189741862</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695189741862</updated>
+    </task>
+    <task id="LOCAL-00004" summary="add generateTrees">
+      <created>1695257728342</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1695257728342</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -92,6 +154,9 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project" />
+    <MESSAGE value="add rotate" />
+    <MESSAGE value="add inorderTraversal" />
+    <MESSAGE value="add generateTrees" />
+    <option name="LAST_COMMIT_MESSAGE" value="add generateTrees" />
   </component>
 </project>
