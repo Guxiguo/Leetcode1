@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22cdc4a9-2dbf-4e66-8e7c-5a4d28d41902" name="Changes" comment="add generateTrees">
-      <change afterPath="$PROJECT_DIR$/src/groupAnagrams/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/myPow/Solution.java" afterDir="false" />
+    <list default="true" id="22cdc4a9-2dbf-4e66-8e7c-5a4d28d41902" name="Changes" comment="add distMoney">
+      <change afterPath="$PROJECT_DIR$/src/Solution/LockingTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/maximizeGreatness/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -117,6 +117,9 @@
       <workItem from="1695215208642" duration="4729000" />
       <workItem from="1695257684310" duration="104000" />
       <workItem from="1695370290057" duration="28000" />
+      <workItem from="1695370321705" duration="1789000" />
+      <workItem from="1695381768777" duration="3228000" />
+      <workItem from="1695436982872" duration="1453000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1695022472379</created>
@@ -146,7 +149,21 @@
       <option name="project" value="LOCAL" />
       <updated>1695257728342</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add myPow">
+      <created>1695370358912</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1695370358913</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add distMoney">
+      <created>1695437135112</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1695437135112</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -157,6 +174,8 @@
     <MESSAGE value="add rotate" />
     <MESSAGE value="add inorderTraversal" />
     <MESSAGE value="add generateTrees" />
-    <option name="LAST_COMMIT_MESSAGE" value="add generateTrees" />
+    <MESSAGE value="add myPow" />
+    <MESSAGE value="add distMoney" />
+    <option name="LAST_COMMIT_MESSAGE" value="add distMoney" />
   </component>
 </project>
