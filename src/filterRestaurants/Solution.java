@@ -1,0 +1,45 @@
+package filterRestaurants;
+
+import java.util.*;
+
+
+/**
+ * 给你一个餐馆信息数组 restaurants，其中  restaurants[i] = [idi, ratingi, veganFriendlyi, pricei, distancei]。你必须使用以下三个过滤器来过滤这些餐馆信息。
+ *
+ * 其中素食者友好过滤器 veganFriendly 的值可以为 true 或者 false，如果为 true 就意味着你应该只包括 veganFriendlyi 为 true 的餐馆，为 false 则意味着可以包括任何餐馆。此外，我们还有最大价格 maxPrice 和最大距离 maxDistance 两个过滤器，它们分别考虑餐厅的价格因素和距离因素的最大值。
+ *
+ * 过滤后返回餐馆的 id，按照 rating 从高到低排序。如果 rating 相同，那么按 id 从高到低排序。简单起见， veganFriendlyi 和 veganFriendly 为 true 时取值为 1，为 false 时，取值为 0 。
+ */
+class Solution {
+    public static List<Integer> filterRestaurants(int[][] restaurants, int veganFriendly, int maxPrice, int maxDistance) {
+        Map<Integer,Integer> map = new HashMap<>();
+        for(int i = 0;i< restaurants.length;i++){
+            if(restaurants[i][2]==1&&restaurants[i][2]==veganFriendly&&restaurants[i][3]<=maxPrice&&restaurants[i][4]<=maxDistance){
+                map.put(restaurants[i][0],restaurants[i][1]);
+            }
+            else if(veganFriendly==0&&restaurants[i][3]<=maxPrice&&restaurants[i][4]<=maxDistance){
+                map.put(restaurants[i][0],restaurants[i][1]);
+            }
+        }
+        List<Map.Entry<Integer, Integer>> sortedList = new ArrayList<>(map.entrySet());
+        sortedList.sort(Map.Entry.<Integer, Integer>comparingByValue()
+                .thenComparing(Map.Entry.comparingByKey()));
+
+        List<Integer> list = new ArrayList<>();
+        for (Map.Entry<Integer, Integer> entry : sortedList) {
+
+            list.add(entry.getKey());
+
+        }
+        Collections.reverse(list);
+        return list;
+
+    }
+
+    public static void main(String[] args) {
+        int [][] restaurants = {{1,4,1,40,10},{2,8,0,50,5},{3,8,1,30,4},{4,10,0,10,3},{5,1,1,15,1}};
+        int veganFriendly = 1, maxPrice = 50, maxDistance = 10;
+        System.out.println(filterRestaurants(restaurants,veganFriendly,maxPrice,maxDistance));
+
+    }
+}
