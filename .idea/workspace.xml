@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22cdc4a9-2dbf-4e66-8e7c-5a4d28d41902" name="Changes" comment="add lockingTree">
-      <change afterPath="$PROJECT_DIR$/src/LRUCache/LRUCache.java" afterDir="false" />
+    <list default="true" id="22cdc4a9-2dbf-4e66-8e7c-5a4d28d41902" name="Changes" comment="add canPlaceFlowers">
+      <change afterPath="$PROJECT_DIR$/src/findPoisonedDuration/Solution.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -43,6 +43,10 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
@@ -51,7 +55,7 @@
       <recent name="generateTrees" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LRUCache">
+  <component name="RunManager" selected="Application.filterRestaurants.Solution">
     <configuration name="LRUCache" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="LRUCache.LRUCache" />
       <module name="LeetCode1" />
@@ -71,6 +75,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="rotate.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="filterRestaurants.Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="filterRestaurants.Solution" />
+      <module name="LeetCode1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="filterRestaurants.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,6 +123,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.filterRestaurants.Solution" />
         <item itemvalue="Application.LRUCache" />
         <item itemvalue="Application.myPow.Solution" />
         <item itemvalue="Application.groupAnagrams.Solution" />
@@ -136,6 +154,18 @@
       <workItem from="1695525642316" duration="5873000" />
       <workItem from="1695531594964" duration="228000" />
       <workItem from="1695603315434" duration="1810000" />
+      <workItem from="1695689565638" duration="649000" />
+      <workItem from="1695726796456" duration="1473000" />
+      <workItem from="1695782052033" duration="105000" />
+      <workItem from="1695815961944" duration="3557000" />
+      <workItem from="1695820157864" duration="707000" />
+      <workItem from="1695862892221" duration="384000" />
+      <workItem from="1695913248577" duration="944000" />
+      <workItem from="1695943846548" duration="1046000" />
+      <workItem from="1695958878871" duration="2690000" />
+      <workItem from="1695991602571" duration="460000" />
+      <workItem from="1696010658897" duration="325000" />
+      <workItem from="1696145589538" duration="826000" />
     </task>
     <task id="LOCAL-00001" summary="new project">
       <created>1695022472379</created>
@@ -193,7 +223,49 @@
       <option name="project" value="LOCAL" />
       <updated>1695603405045</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="add LRUCache">
+      <created>1695689607156</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1695689607156</updated>
+    </task>
+    <task id="LOCAL-00010" summary="add passThePillow">
+      <created>1695782090471</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1695782090471</updated>
+    </task>
+    <task id="LOCAL-00011" summary="add recoverTree">
+      <created>1695862924821</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1695862924822</updated>
+    </task>
+    <task id="LOCAL-00012" summary="add fullbloomFlowers">
+      <created>1695943933392</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1695943933392</updated>
+    </task>
+    <task id="LOCAL-00013" summary="add isSameTree">
+      <created>1696010696999</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1696010696999</updated>
+    </task>
+    <task id="LOCAL-00014" summary="add canPlaceFlowers">
+      <created>1696145622642</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1696145622642</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -208,6 +280,12 @@
     <MESSAGE value="add distMoney" />
     <MESSAGE value="add maximizeGreatness" />
     <MESSAGE value="add lockingTree" />
-    <option name="LAST_COMMIT_MESSAGE" value="add lockingTree" />
+    <MESSAGE value="add LRUCache" />
+    <MESSAGE value="add passThePillow" />
+    <MESSAGE value="add recoverTree" />
+    <MESSAGE value="add fullbloomFlowers" />
+    <MESSAGE value="add isSameTree" />
+    <MESSAGE value="add canPlaceFlowers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add canPlaceFlowers" />
   </component>
 </project>
