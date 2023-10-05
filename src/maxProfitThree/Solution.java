@@ -1,6 +1,8 @@
 package maxProfitThree;
 
 
+import java.util.Arrays;
+
 /**
  * 给你一个整数数组 prices 和一个整数 k ，其中 prices[i] 是某支给定的股票在第 i 天的价格。
  *
